@@ -36,6 +36,12 @@
         height: 275px;
         margin: 0 auto 2rem;
     }
+
+    .circular__portrait {
+        width: 275px;
+        height: 275px;
+    }
+
     .about-containers {
         margin-top: 0;
     }
@@ -93,3 +99,14 @@
 }
 
 
+@media screen and (max-width: 768px) {
+  .circular__portrait {
+    width: 200px;
+    height: 200px;
+  }
+
+  .section__pic-container {
+    width: 200px;
+    height: 200px;
+  }
+}
